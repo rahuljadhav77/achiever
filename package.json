@@ -1,0 +1,29 @@
+{
+  "name": "achiever",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run:achieve": "node dist/achievements.js all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahuljadhav77/achiever.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahuljadhav77/achiever/issues"
+  },
+  "homepage": "https://github.com/rahuljadhav77/achiever#readme",
+  "description": "",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
